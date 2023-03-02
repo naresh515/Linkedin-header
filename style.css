@@ -100,10 +100,16 @@ body {
         display: none;
     }
 
-    .responsive_nav,
     .navbar {
         display: flex;
         background-color: #2f71ab;
+        justify-content: space-between;
+    }
+
+    .responsive_nav {
+        background-color: #2f71ab;
+        display: inline-block;
+        width: 100%;
     }
 
     .ico_img {
@@ -123,13 +129,14 @@ body {
 
     #form-search {
         width: 200px;
-        margin: 0 auto;
         height: 30px;
-        margin-top: -5px;
+        position: relative;
     }
 
     .search {
-        top: 20px;
-        left: 15px;
+        position: absolute;
+        z-index: 1;
+        left: auto;
+        top: 18px;
     }
 }
