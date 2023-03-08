@@ -16,6 +16,19 @@ body {
     color: #3f3fb2;
     font-size: 35px;
     padding: 15px 0px;
+    cursor: pointer;
+}
+
+.icons i,
+.icon_img {
+    cursor: pointer;
+}
+
+.icons i:hover,
+.icon_img img:hover,
+.ico6:hover {
+    color: #3f3fb2;
+    filter: none;
 }
 
 .ico3,
